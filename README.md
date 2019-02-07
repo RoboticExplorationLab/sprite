@@ -5,7 +5,7 @@
 [software](https://github.com/maholli/sprite/tree/master/software): circuitpython scripts and libraries working on the sprite
 
 <p align="middle">
-  <img width="800" src="https://github.com/maholli/sprite/blob/master/hardware/board.PNG">
+  <img width="800" src="https://github.com/RoboticExplorationLab/sprite/blob/master/hardware/board.PNG">
 </p>
 
 ## useful resources
