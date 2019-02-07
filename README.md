@@ -1,7 +1,7 @@
 
 [hardware](https://github.com/maholli/sprite/tree/master/hardware): KiCad PCB files and bill of materials
-  
-[firmware](https://github.com/maholli/sprite/tree/master/firmware): built circuitpython bootloader.bin and firmware.uf2 + files to build it yourself
+
+[firmware](https://github.com/maholli/sprite/tree/master/firmware): built circuitpython bootloader.bin and firmware.uf2 (and the files to build it yourself)
 
 [software](https://github.com/maholli/sprite/tree/master/software): circuitpython scripts and libraries working on the sprite
 
@@ -21,7 +21,7 @@ nearly any terminal program can communicate with the sprite (baud=112500, data=8
 ### MacOS
 1. In terminal type: `ls /dev/tty.*`. The sprite will likely be listed as `/dev/tty.usbmodem_____`
 2. Now enter: `screen /dev/tty.YOURBOARDNAMEHERE 115200`
-3. You may or may not see a propmt, press <kbd>Ctrl</kbd>+<kbd>C</kbd> to halt the sprite
+3. You may or may not see a prompt, press <kbd>Ctrl</kbd>+<kbd>C</kbd> to halt the sprite
 4. You can now enter the REPL by pressing any key, or hit <kbd>Ctrl</kbd>+<kbd>D</kbd> to reload the main.py
 5. Exit screen at any time by pressing <kbd>Ctrl</kbd>+<kbd>A</kbd>+<kbd>\</kbd>
 
@@ -32,4 +32,23 @@ nearly any terminal program can communicate with the sprite (baud=112500, data=8
 4. In device manager, scroll down to "Ports (COM & LPT)" and expand it
 5. Plug in, then unplug the sprite and notice the impacted "COM" port.
 6. Return to PuTTY and enter "COM___" in the "Serial Line" field, and then click "Open"
+
+## Demos
+
+Put all the files located in [/software/](/software/) on to the sprite and start the serial console (as described above). After pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> to halt the sprite, press any key to enter the REPL, then type
+
+```
+import NAMEOFFILE
+```
+
+and press enter to execute the example. For example, it we wanted to run blink.py, it would be...
+
+```
+import blink
+```
+
+1. blink.py - will blink the green LED. 
+2. i2c_IMU.py - samples all available sensors on the IMU and prints the results
+3. cursor.py - uses the X,Y data from the IMU accelerometer and moves the computer cursor accordingly
+4. cpc_test.py - example transmit message for the CC1101 radio
 
