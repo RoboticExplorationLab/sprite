@@ -52,3 +52,4 @@ import blink
 3. cursor.py - uses the X,Y data from the IMU accelerometer and moves the computer cursor accordingly
 4. cpc_test.py - example transmit message for the CC1101 radio
 
+### see https://github.com/maholli/SAM32 for more help getting started with circuitpython
