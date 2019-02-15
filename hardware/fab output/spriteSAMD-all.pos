@@ -1,0 +1,50 @@
+### Module positions - created on 2/14/2019 7:04:34 PM ###
+### Printed by Pcbnew version kicad (6.0.0-rc1-dev-1614-ge850a482d)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                         Package                          PosX       PosY       Rot  Side
+C1        10uF                        C_0402_1005Metric            -93.4720   -93.7260   90.0000  bottom
+C3        0.1uF                       C_0402_1005Metric            -93.4542   -98.0135  270.0000  bottom
+C4        0.1uF                       C_0402_1005Metric           -101.1123   -93.0123  270.0000  bottom
+C5        10nF                        C_0402_1005Metric            -95.1408   -92.1893    0.0000  bottom
+C6        0.1uF                       C_0402_1005Metric            -99.2962   -92.1995  180.0000  bottom
+C19       220pF                       C_0402_1005Metric           -108.1466  -102.7460  180.0000  bottom
+C21       100nF                       C_0402_1005Metric           -105.4300  -101.8000    0.0000  bottom
+C29       1uF                         C_0402_1005Metric            -93.2180  -104.9020    0.0000  bottom
+C31       1uF                         C_0402_1005Metric           -102.4128  -100.5840   90.0000  bottom
+C33       1uF                         C_0402_1005Metric            -95.8545  -103.3348    0.0000  bottom
+C34       10uF                        C_0402_1005Metric            -99.0092  -105.4227  270.0000  bottom
+L1        10uH                        L_0805_2012Metric            -98.8337  -103.6320  180.0000  bottom
+R8        10K                         R_0402_1005Metric            -88.2828   -97.9576    0.0000  bottom
+R9        10K                         R_0402_1005Metric            -93.2180  -106.1720  180.0000  bottom
+REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer   -83.3120  -107.4420    0.0000  bottom
+REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer   -86.9950   -75.8190    0.0000  bottom
+REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer  -110.1090   -78.9940    0.0000  bottom
+U7        OVM9724                     OVM9724b                     -91.1403   -96.9518  270.0000  bottom
+X1        26.000                      TXCO_2.5x2                  -107.8992  -105.9688  180.0000  bottom
+C2        0.1uF                       C_0402_1005Metric             91.9277   -99.0803    0.0000  top
+C7        1uF                         C_0402_1005Metric             96.5200  -105.4100   90.0000  top
+C8        0.1uF                       C_0402_1005Metric             89.0981   -95.9587  180.0000  top
+C9        0.1uF                       C_0402_1005Metric             93.0224   -96.0653    0.0000  top
+C10       0.1uF                       C_0402_1005Metric             93.0148   -97.0280    0.0000  top
+C16       220pF                       C_0402_1005Metric            105.9383   -97.4404  270.0000  top
+C17       220pF                       C_0402_1005Metric            108.4021   -97.3973   90.0000  top
+C18       10nF                        C_0402_1005Metric            109.6721   -97.3973   90.0000  top
+C20       10nF                        C_0402_1005Metric            107.9779  -104.7775  270.0000  top
+C22       100nF                       C_0402_1005Metric            110.1524   -99.9090  270.0000  top
+C25       27pF                        C_0402_1005Metric            106.7460  -104.7852  270.0000  top
+C30       10uF                        C_0402_1005Metric             97.8103  -105.4100   90.0000  top
+C32       0.1uF                       C_0402_1005Metric             99.0092  -105.4227  270.0000  top
+D1        MBR120                      D_SOD-123                     88.9000  -102.1080   90.0000  top
+D3        GREEN_LED                   LED_0603_1608Metric          103.6498  -105.0874   90.0000  top
+J1        10118194-0001LF             10118194-0001LF               84.0740  -101.6000  270.0000  top
+R4        10K                         R_0402_1005Metric             88.7019   -97.1525  180.0000  top
+R6        330                         R_0402_1005Metric            102.1080  -105.4100   90.0000  top
+R7        10K                         R_0402_1005Metric             93.4974   -99.0016   90.0000  top
+R11       56K                         R_0402_1005Metric            107.1321   -97.3973   90.0000  top
+R13       10K                         R_0402_1005Metric            100.3198  -105.4100   90.0000  top
+REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer    83.3120  -107.4420    0.0000  top
+REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer    86.9950   -75.8190    0.0000  top
+REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer   110.1090   -78.9940    0.0000  top
+U6        ATSAMD51G_TQFN48            QFN50P700X700X90-49N-D        98.8568   -99.8728  180.0000  top
+## End

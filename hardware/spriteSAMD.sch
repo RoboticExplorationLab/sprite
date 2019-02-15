@@ -69,7 +69,7 @@ F 3 "" H 1650 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:DIODE-SCHOTTKYSOD-123-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue D?
+L spriteSAMD-rescue:DIODE-SCHOTTKYSOD-123-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue D?
 U 1 0 5C3B84BA
 P 8550 1050
 AR Path="/5BCFDB7D/5C3B84BA" Ref="D?"  Part="1" 
@@ -84,7 +84,7 @@ $EndComp
 Text Notes 9000 700  0    79   ~ 0
 REGULATOR\n
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #GND?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #GND?
 U 1 0 5C3B8530
 P 5350 7450
 AR Path="/5BD3B1CE/5C3B8530" Ref="#GND?"  Part="1" 
@@ -122,7 +122,7 @@ F 8 "Unavailable" H 5950 6800 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:VUSB-power-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #PWR0101
+L spriteSAMD-rescue:VUSB-power-SAMD-10-rescue-SAM32-rescue #PWR0101
 U 1 1 5C3B873D
 P 5450 6500
 F 0 "#PWR0101" H 5450 6350 50  0001 C CNN
@@ -141,14 +141,14 @@ L Device:R_US R6
 U 1 1 5C3B885A
 P 900 5650
 F 0 "R6" H 1150 5600 50  0000 C CNN
-F 1 "2.2K" H 1100 5700 50  0000 C CNN
+F 1 "330" H 1100 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 940 5640 50  0001 C CNN
 F 3 "~" H 900 5650 50  0001 C CNN
 	1    900  5650
 	-1   0    0    1   
 $EndComp
 $Comp
-L spriteSAMD-rescue:LED0805_NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue CHRG?
+L spriteSAMD-rescue:LED0805_NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue CHRG?
 U 1 0 5C3B8860
 P 700 5800
 AR Path="/5BCFDB7D/5C3B8860" Ref="CHRG?"  Part="1" 
@@ -161,7 +161,7 @@ F 3 "" H 700 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C3B8866
 P 600 5900
 AR Path="/5BCFDB7D/5C3B8866" Ref="#U$?"  Part="1" 
@@ -183,7 +183,7 @@ U 1 1 5C689C51
 P 8000 5450
 F 0 "U2" H 8000 4353 60  0000 C CNN
 F 1 "CC1101RGPR" H 8000 4247 60  0000 C CNN
-F 2 "digikey-footprints:QFN-20-1EP_4x4mm_RevA" H 8200 5650 60  0001 L CNN
+F 2 "custom-footprints:CC1101_RGP_20" H 8200 5650 60  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/CC1101.pdf" H 8200 5750 60  0001 L CNN
 F 4 "296-35718-1-ND" H 8200 5850 60  0001 L CNN "Digi-Key_PN"
 F 5 "CC1101RGPR" H 8200 5950 60  0001 L CNN "MPN"
@@ -278,7 +278,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 4600 7400 4750
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CA40169
 P 8400 4500
 AR Path="/5BCFDB7D/5CA40169" Ref="C?"  Part="1" 
@@ -291,7 +291,7 @@ F 3 "" H 8400 4500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5CA40F42
 P 8500 4600
 AR Path="/5BCFDB7D/5CA40F42" Ref="#U$?"  Part="1" 
@@ -304,7 +304,7 @@ F 3 "" H 8500 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CA41CD8
 P 7400 4850
 AR Path="/5BCFDB7D/5CA41CD8" Ref="C?"  Part="1" 
@@ -335,7 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 4600 8700 4750
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CA8B3B2
 P 8700 4850
 AR Path="/5BCFDB7D/5CA8B3B2" Ref="C?"  Part="1" 
@@ -349,7 +349,7 @@ F 3 "" H 8700 4850 50  0001 C CNN
 $EndComp
 Connection ~ 8700 4750
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CA8BA97
 P 7600 4300
 AR Path="/5BCFDB7D/5CA8BA97" Ref="C?"  Part="1" 
@@ -377,7 +377,7 @@ F 3 "" H 7600 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CAA4987
 P 7700 4400
 AR Path="/5BCFDB7D/5CAA4987" Ref="C?"  Part="1" 
@@ -390,7 +390,7 @@ F 3 "" H 7700 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CABC83E
 P 7800 4500
 AR Path="/5BCFDB7D/5CABC83E" Ref="C?"  Part="1" 
@@ -416,80 +416,21 @@ F 3 "~" H 9150 6050 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CAEE403
-P 9800 5150
+P 9250 5650
 AR Path="/5BCFDB7D/5CAEE403" Ref="C?"  Part="1" 
 AR Path="/5CAEE403" Ref="C25"  Part="1" 
 AR Path="/5C397B81/5CAEE403" Ref="C?"  Part="1" 
-F 0 "C25" V 9710 5199 50  0000 C CNN
-F 1 "27pF" V 9650 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9800 5150 50  0001 C CNN
-F 3 "" H 9800 5150 50  0001 C CNN
-	1    9800 5150
+F 0 "C25" V 9160 5699 50  0000 C CNN
+F 1 "27pF" V 9100 5700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9250 5650 50  0001 C CNN
+F 3 "" H 9250 5650 50  0001 C CNN
+	1    9250 5650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
-U 1 0 5CAEE409
-P 9800 5450
-AR Path="/5BCFDB7D/5CAEE409" Ref="C?"  Part="1" 
-AR Path="/5CAEE409" Ref="C26"  Part="1" 
-F 0 "C26" V 9710 5499 50  0000 C CNN
-F 1 "27pF" V 9650 5500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9800 5450 50  0001 C CNN
-F 3 "" H 9800 5450 50  0001 C CNN
-	1    9800 5450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
-U 1 0 5CAEE40F
-P 9900 5650
-AR Path="/5BCFDB7D/5CAEE40F" Ref="#U$?"  Part="1" 
-AR Path="/5CAEE40F" Ref="#U$0118"  Part="1" 
-F 0 "#U$0118" H 9900 5650 50  0001 C CNN
-F 1 "GND" H 9800 5550 59  0000 L BNN
-F 2 "" H 9900 5650 50  0001 C CNN
-F 3 "" H 9900 5650 50  0001 C CNN
-	1    9900 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 5150 9900 5450
-Wire Wire Line
-	9600 5450 9500 5450
-Wire Wire Line
-	9600 5150 9500 5150
-$Comp
-L Device:Crystal X1
-U 1 1 5CAEE41C
-P 9500 5300
-F 0 "X1" V 9800 5250 50  0000 L CNN
-F 1 "ST3215SB" V 9700 5100 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm" H 9500 5300 50  0001 C CNN
-F 3 "https://global.kyocera.com/prdct/electro/product/pdf/st3215sb_e.pdf" H 9500 5300 50  0001 C CNN
-F 4 "26.000" V 9500 5300 39  0000 C CNN "Freq"
-	1    9500 5300
-	0    1    -1   0   
-$EndComp
-Connection ~ 9900 5450
-Wire Wire Line
-	9900 5450 9900 5550
-Wire Wire Line
-	9500 5150 9350 5150
-Wire Wire Line
-	9350 5150 9350 5650
-Wire Wire Line
-	9350 5650 8600 5650
-Connection ~ 9500 5150
-Wire Wire Line
-	8600 5750 9500 5750
-Wire Wire Line
-	9500 5750 9500 5450
-Connection ~ 9500 5450
-$Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CBA0B79
 P 7850 4650
 AR Path="/5BCFDB7D/5CBA0B79" Ref="C?"  Part="1" 
@@ -570,7 +511,7 @@ F 3 "" H 7400 6550 50  0001 C CNN
 $EndComp
 Connection ~ 7400 6450
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CE3FBF2
 P 1000 1300
 AR Path="/5BCFDB7D/5CE3FBF2" Ref="C?"  Part="1" 
@@ -583,7 +524,7 @@ F 3 "" H 1000 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CE40895
 P 1200 1500
 AR Path="/5BCFDB7D/5CE40895" Ref="C?"  Part="1" 
@@ -596,7 +537,7 @@ F 3 "" H 1200 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CE40C57
 P 1450 1600
 AR Path="/5BCFDB7D/5CE40C57" Ref="C?"  Part="1" 
@@ -609,7 +550,7 @@ F 3 "" H 1450 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5CE40EA8
 P 1650 1900
 AR Path="/5BCFDB7D/5CE40EA8" Ref="C?"  Part="1" 
@@ -696,7 +637,7 @@ GND
 Wire Wire Line
 	4900 7200 4450 7200
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_ItsyBitsy_M4-eagle-import-spriteSAMD-rescue #U$0119
+L spriteSAMD-rescue:GND-Adafruit_ItsyBitsy_M4-eagle-import #U$0119
 U 1 0 5C58A0E6
 P 1450 7100
 F 0 "#U$0119" H 1450 7100 50  0001 C CNN
@@ -707,7 +648,7 @@ F 3 "" H 1450 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:ATSAMD51G_TQFN48-Adafruit_ItsyBitsy_M4-eagle-import-spriteSAMD-rescue U6
+L spriteSAMD-rescue:ATSAMD51G_TQFN48-Adafruit_ItsyBitsy_M4-eagle-import U6
 U 1 0 5C58A0F8
 P 2950 5900
 F 0 "U6" H 2800 7950 59  0000 L BNN
@@ -755,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 7200 4900 7350
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C6B8698
 P 1150 4200
 AR Path="/5BCFDB7D/5C6B8698" Ref="C?"  Part="1" 
@@ -768,7 +709,7 @@ F 3 "" H 1150 4200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C6B869E
 P 1150 4500
 AR Path="/5BCFDB7D/5C6B869E" Ref="#U$?"  Part="1" 
@@ -781,7 +722,7 @@ F 3 "" H 1150 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:SWITCH_TACT_SMT4.6X2.8-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue SW?
+L spriteSAMD-rescue:SWITCH_TACT_SMT4.6X2.8-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue SW?
 U 1 0 5C6B86A4
 P 850 4100
 AR Path="/5BCFDB7D/5C6B86A4" Ref="SW?"  Part="1" 
@@ -798,7 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 4100 1050 4100
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C6B86B5
 P 650 4500
 AR Path="/5BCFDB7D/5C6B86B5" Ref="#U$?"  Part="1" 
@@ -833,7 +774,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 3650 1150 3800
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C7B1AFE
 P 800 4800
 AR Path="/5BCFDB7D/5C7B1AFE" Ref="C?"  Part="1" 
@@ -848,7 +789,7 @@ $EndComp
 Wire Wire Line
 	800  4700 1050 4700
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #GND?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #GND?
 U 1 0 5C7F1ED3
 P 800 5100
 AR Path="/5BD3B1CE/5C7F1ED3" Ref="#GND?"  Part="1" 
@@ -861,22 +802,22 @@ F 3 "" H 800 5100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C7F5857
-P 5150 4300
+P 5000 4300
 AR Path="/5BCFDB7D/5C7F5857" Ref="C?"  Part="1" 
 AR Path="/5C7F5857" Ref="C31"  Part="1" 
-F 0 "C31" V 5060 4349 50  0000 C CNN
-F 1 "1uF" V 5240 4349 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5150 4300 50  0001 C CNN
-F 3 "" H 5150 4300 50  0001 C CNN
-	1    5150 4300
+F 0 "C31" V 4910 4349 50  0000 C CNN
+F 1 "1uF" V 5090 4349 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5000 4300 50  0001 C CNN
+F 3 "" H 5000 4300 50  0001 C CNN
+	1    5000 4300
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5250 4300 5350 4300
+	5100 4300 5200 4300
 Wire Wire Line
-	4450 4300 4950 4300
+	4450 4300 4800 4300
 Text Label 4500 4300 0    50   ~ 0
 AREF
 Text GLabel 4550 4700 2    59   Output ~ 0
@@ -903,75 +844,74 @@ Wire Wire Line
 	1450 4400 1450 4300
 Wire Wire Line
 	1350 4400 1350 4300
-Connection ~ 1450 4400
 Wire Wire Line
 	1450 4400 1350 4400
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C99817E
-P 5850 4850
+P 1150 6900
 AR Path="/5BCFDB7D/5C99817E" Ref="C?"  Part="1" 
 AR Path="/5C99817E" Ref="C34"  Part="1" 
-F 0 "C34" H 5800 5000 50  0000 C CNN
-F 1 "10uF" H 5800 4800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5850 4850 50  0001 C CNN
-F 3 "" H 5850 4850 50  0001 C CNN
-	1    5850 4850
+F 0 "C34" H 1100 7050 50  0000 C CNN
+F 1 "10uF" H 1100 6850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1150 6900 50  0001 C CNN
+F 3 "" H 1150 6900 50  0001 C CNN
+	1    1150 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C99818A
-P 5650 4850
+P 950 6900
 AR Path="/5BCFDB7D/5C99818A" Ref="C?"  Part="1" 
 AR Path="/5C99818A" Ref="C33"  Part="1" 
-F 0 "C33" H 5600 5000 50  0000 C CNN
-F 1 "1uF" H 5600 4800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5650 4850 50  0001 C CNN
-F 3 "" H 5650 4850 50  0001 C CNN
-	1    5650 4850
+F 0 "C33" H 900 7050 50  0000 C CNN
+F 1 "1uF" H 900 6850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 950 6900 50  0001 C CNN
+F 3 "" H 950 6900 50  0001 C CNN
+	1    950  6900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5650 4650
+Connection ~ 950  6700
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0603_NO-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C998193
-P 5450 4850
+P 750 6900
 AR Path="/5BCFDB7D/5C998193" Ref="C?"  Part="1" 
 AR Path="/5C998193" Ref="C32"  Part="1" 
-F 0 "C32" H 5400 5000 50  0000 C CNN
-F 1 "0.1uF" H 5400 4800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5450 4850 50  0001 C CNN
-F 3 "" H 5450 4850 50  0001 C CNN
-	1    5450 4850
+F 0 "C32" H 700 7050 50  0000 C CNN
+F 1 "0.1uF" H 700 6850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 750 6900 50  0001 C CNN
+F 3 "" H 750 6900 50  0001 C CNN
+	1    750  6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4650 5650 4650
+	750  6700 950  6700
 Wire Wire Line
-	5650 4950 5450 4950
-Connection ~ 5650 4950
+	950  7000 750  7000
+Connection ~ 950  7000
 Wire Wire Line
-	5650 4650 5850 4650
+	950  6700 1150 6700
 Wire Wire Line
-	5650 4950 5850 4950
+	950  7000 1150 7000
 Wire Wire Line
-	5650 4550 5650 4650
+	950  6600 950  6700
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #GND?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #GND?
 U 1 0 5CA45F1A
-P 5650 5150
+P 950 7200
 AR Path="/5BD3B1CE/5CA45F1A" Ref="#GND?"  Part="1" 
 AR Path="/5CA45F1A" Ref="#GND0110"  Part="1" 
-F 0 "#GND0110" H 5650 5150 50  0001 C CNN
-F 1 "GND" H 5550 5050 59  0000 L BNN
-F 2 "" H 5650 5150 50  0001 C CNN
-F 3 "" H 5650 5150 50  0001 C CNN
-	1    5650 5150
+F 0 "#GND0110" H 950 7200 50  0001 C CNN
+F 1 "GND" H 850 7100 59  0000 L BNN
+F 2 "" H 950 7200 50  0001 C CNN
+F 3 "" H 950 7200 50  0001 C CNN
+	1    950  7200
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 4950 5650 5050
+	950  7000 950  7100
 Wire Wire Line
 	4450 7100 5000 7100
 Text Label 4450 7200 0    70   ~ 0
@@ -998,95 +938,78 @@ Wire Wire Line
 $Comp
 L Sprite-eagle-import:TRISOLX-WING S5
 U 1 0 5C3B17AF
-P 5750 1450
+P 7400 1550
 AR Path="/5C3B17AF" Ref="S5"  Part="1" 
 AR Path="/5BAEE902/5C3B17AF" Ref="S?"  Part="1" 
-F 0 "S5" H 5850 1469 59  0000 L BNN
-F 1 "KXOB22-04X3F" H 5550 2100 59  0000 L BNN
-F 2 "custom-footprints:KXOB22-12X1F" H 5750 1450 50  0001 C CNN
-F 3 "" H 5750 1450 50  0001 C CNN
-	1    5750 1450
+F 0 "S5" H 7500 1569 59  0000 L BNN
+F 1 "KXOB22-04X3F" H 7200 2200 59  0000 L BNN
+F 2 "custom-footprints:KXOB22-12X1F" H 7400 1550 50  0001 C CNN
+F 3 "" H 7400 1550 50  0001 C CNN
+	1    7400 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Sprite-eagle-import:TRISOLX-WING S1
 U 1 0 5C3CE86E
-P 5750 1100
+P 7400 1200
 AR Path="/5C3CE86E" Ref="S1"  Part="1" 
 AR Path="/5BAEE902/5C3CE86E" Ref="S?"  Part="1" 
-F 0 "S1" H 5850 1119 59  0000 L BNN
-F 1 "KXOB22-04X3F" H 5850 1009 59  0001 L BNN
-F 2 "custom-footprints:KXOB22-12X1F" H 5750 1100 50  0001 C CNN
-F 3 "" H 5750 1100 50  0001 C CNN
-	1    5750 1100
+F 0 "S1" H 7500 1219 59  0000 L BNN
+F 1 "KXOB22-04X3F" H 7500 1109 59  0001 L BNN
+F 2 "custom-footprints:KXOB22-12X1F" H 7400 1200 50  0001 C CNN
+F 3 "" H 7400 1200 50  0001 C CNN
+	1    7400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Sprite-eagle-import:TRISOLX-WING S2
 U 1 0 5C3CFC01
-P 6150 1100
+P 7800 1200
 AR Path="/5C3CFC01" Ref="S2"  Part="1" 
 AR Path="/5BAEE902/5C3CFC01" Ref="S?"  Part="1" 
-F 0 "S2" H 6250 1119 59  0000 L BNN
-F 1 "KXOB22-04X3F" H 6250 1009 59  0001 L BNN
-F 2 "custom-footprints:KXOB22-12X1F" H 6150 1100 50  0001 C CNN
-F 3 "" H 6150 1100 50  0001 C CNN
-	1    6150 1100
+F 0 "S2" H 7900 1219 59  0000 L BNN
+F 1 "KXOB22-04X3F" H 7900 1109 59  0001 L BNN
+F 2 "custom-footprints:KXOB22-12X1F" H 7800 1200 50  0001 C CNN
+F 3 "" H 7800 1200 50  0001 C CNN
+	1    7800 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Sprite-eagle-import:TRISOLX-WING S3
 U 1 0 5C3D0355
-P 6150 1450
+P 7800 1550
 AR Path="/5C3D0355" Ref="S3"  Part="1" 
 AR Path="/5BAEE902/5C3D0355" Ref="S?"  Part="1" 
-F 0 "S3" H 6250 1469 59  0000 L BNN
-F 1 "KXOB22-04X3F" H 6250 1359 59  0001 L BNN
-F 2 "custom-footprints:KXOB22-12X1F" H 6150 1450 50  0001 C CNN
-F 3 "" H 6150 1450 50  0001 C CNN
-	1    6150 1450
+F 0 "S3" H 7900 1569 59  0000 L BNN
+F 1 "KXOB22-04X3F" H 7900 1459 59  0001 L BNN
+F 2 "custom-footprints:KXOB22-12X1F" H 7800 1550 50  0001 C CNN
+F 3 "" H 7800 1550 50  0001 C CNN
+	1    7800 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 1450 5550 1450
 $Comp
-L BAT-HLD-001:BAT-HLD-001 U1
+L spriteSAMD-rescue:BAT-HLD-001-BAT-HLD-001 U1
 U 1 1 5C3AF43F
-P 8100 1050
-F 0 "U1" H 8375 647 60  0000 C CNN
-F 1 "BAT-HLD-001" H 8375 753 60  0000 C CNN
-F 2 "custom-footprints:BAT-HLD-001" H 8384 708 60  0001 C CNN
-F 3 "" H 8100 1050 60  0000 C CNN
-	1    8100 1050
+P 8000 1950
+F 0 "U1" H 8275 1547 60  0000 C CNN
+F 1 "BAT-HLD-001" H 8275 1653 60  0000 C CNN
+F 2 "custom-footprints:BAT-HLD-001" H 8284 1608 60  0001 C CNN
+F 3 "" H 8000 1950 60  0000 C CNN
+	1    8000 1950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #GND?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #GND?
 U 1 0 5C3B20B5
-P 7350 1250
+P 7200 2150
 AR Path="/5BD3B1CE/5C3B20B5" Ref="#GND?"  Part="1" 
 AR Path="/5C3B20B5" Ref="#GND0101"  Part="1" 
-F 0 "#GND0101" H 7350 1250 50  0001 C CNN
-F 1 "GND" H 7250 1150 59  0000 L BNN
-F 2 "" H 7350 1250 50  0001 C CNN
-F 3 "" H 7350 1250 50  0001 C CNN
-	1    7350 1250
+F 0 "#GND0101" H 7200 2150 50  0001 C CNN
+F 1 "GND" H 7100 2050 59  0000 L BNN
+F 2 "" H 7200 2150 50  0001 C CNN
+F 3 "" H 7200 2150 50  0001 C CNN
+	1    7200 2150
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 1150 7550 1150
-$Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M0_Adalogger-eagle-import-lab64_SAM32-rescue-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #GND?
-U 1 0 5C3CCE54
-P 5350 1550
-AR Path="/5BD3B1CE/5C3CCE54" Ref="#GND?"  Part="1" 
-AR Path="/5C3CCE54" Ref="#GND0112"  Part="1" 
-F 0 "#GND0112" H 5350 1550 50  0001 C CNN
-F 1 "GND" H 5250 1450 59  0000 L BNN
-F 2 "" H 5350 1550 50  0001 C CNN
-F 3 "" H 5350 1550 50  0001 C CNN
-	1    5350 1550
-	-1   0    0    -1  
 $EndComp
 $Comp
 L spriteSAMD-rescue:OVM9724-symbols U7
@@ -1134,8 +1057,6 @@ F 3 "~" H 8300 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 2850 7750 2850
-Wire Wire Line
-	7400 2950 7950 2950
 Wire Wire Line
 	7400 3050 8050 3050
 Wire Wire Line
@@ -1280,7 +1201,7 @@ Wire Notes Line
 Wire Notes Line
 	6550 2400 6550 2800
 $Comp
-L DS90:DS90LV012ATMFX_NOPB U9
+L spriteSAMD-rescue:DS90LV012ATMFX_NOPB-DS90 U9
 U 1 1 5C4152EA
 P 3650 1750
 F 0 "U9" H 4350 2100 60  0000 C CNN
@@ -1291,7 +1212,7 @@ F 3 "" H 3650 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS90:DS90LV012ATMFX_NOPB U8
+L spriteSAMD-rescue:DS90LV012ATMFX_NOPB-DS90 U8
 U 1 1 5C44ACBC
 P 3650 2550
 F 0 "U8" H 4350 2650 60  0000 C CNN
@@ -1318,7 +1239,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2750 6100 2750
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C47EEB0
 P 5200 3200
 AR Path="/5BCFDB7D/5C47EEB0" Ref="#U$?"  Part="1" 
@@ -1331,7 +1252,7 @@ F 3 "" H 5200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C47F73F
 P 5400 3850
 AR Path="/5BCFDB7D/5C47F73F" Ref="#U$?"  Part="1" 
@@ -1345,7 +1266,7 @@ F 3 "" H 5400 3850 50  0001 C CNN
 $EndComp
 Connection ~ 5400 3750
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C47FBF6
 P 3650 2950
 AR Path="/5BCFDB7D/5C47FBF6" Ref="#U$?"  Part="1" 
@@ -1358,7 +1279,7 @@ F 3 "" H 3650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C48028F
 P 3650 2150
 AR Path="/5BCFDB7D/5C48028F" Ref="#U$?"  Part="1" 
@@ -1382,11 +1303,6 @@ Text GLabel 3500 1900 0    50   Output ~ 0
 MC
 Text GLabel 3500 2700 0    50   Output ~ 0
 MD
-Wire Wire Line
-	7750 2850 7950 2850
-Wire Wire Line
-	7950 2850 7950 2800
-Connection ~ 7750 2850
 Wire Wire Line
 	4450 5400 4550 5400
 Text GLabel 4550 5400 2    50   Input ~ 0
@@ -1435,7 +1351,7 @@ Wire Wire Line
 Text GLabel 4600 4100 2    50   Input ~ 0
 WAKE
 $Comp
-L TPS82740:TPS82740ASIP U4
+L spriteSAMD-rescue:TPS82740ASIP-TPS82740 U4
 U 1 1 5C405342
 P 9350 1450
 F 0 "U4" H 9350 2100 60  0000 C CNN
@@ -1446,7 +1362,7 @@ F 3 "" H 9350 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C44AC49
 P 8600 2350
 AR Path="/5BCFDB7D/5C44AC49" Ref="#U$?"  Part="1" 
@@ -1475,7 +1391,7 @@ F 3 "" H 10050 1000 50  0001 C CNN
 $EndComp
 NoConn ~ 9900 1550
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C478C2F
 P 10050 2150
 AR Path="/5BCFDB7D/5C478C2F" Ref="#U$?"  Part="1" 
@@ -1490,7 +1406,7 @@ $EndComp
 Wire Wire Line
 	9900 2050 10050 2050
 $Comp
-L spriteSAMD-rescue:VUSB-power-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #PWR0108
+L spriteSAMD-rescue:VUSB-power-SAMD-10-rescue-SAM32-rescue #PWR0108
 U 1 1 5C4E0F8E
 P 8400 850
 F 0 "#PWR0108" H 8400 700 50  0001 C CNN
@@ -1504,38 +1420,23 @@ Wire Wire Line
 	8750 1250 8650 1250
 Connection ~ 8650 1250
 Wire Wire Line
-	8650 1250 8650 1050
+	8650 1250 8650 1200
 Wire Wire Line
 	8750 1050 8650 1050
 Wire Wire Line
 	8750 1850 8650 1850
 Wire Wire Line
-	8650 1850 8650 1650
+	8650 1850 8650 1750
 Wire Wire Line
 	8750 1650 8650 1650
 Connection ~ 8650 1650
 Text Notes 9150 1500 0    50   ~ 0
 2.1V OUTPUT\nVSEL1=1\nVSEL2=1\nVSEL3=0
 Wire Wire Line
-	5550 1100 5550 1450
-Connection ~ 5550 1450
+	7200 1200 7200 1550
 Wire Wire Line
-	6350 1100 6350 1450
-Wire Wire Line
-	6350 1100 6350 800 
-Connection ~ 6350 1100
-$Comp
-L spriteSAMD-rescue:VUSB-power-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #PWR0110
-U 1 1 5C6BDCF3
-P 6350 800
-F 0 "#PWR0110" H 6350 650 50  0001 C CNN
-F 1 "VUSB" H 6365 973 50  0000 C CNN
-F 2 "" H 6350 800 50  0001 C CNN
-F 3 "" H 6350 800 50  0001 C CNN
-	1    6350 800 
-	-1   0    0    -1  
-$EndComp
-Text Notes 5600 700  0    50   ~ 0
+	8000 1200 8000 1550
+Text Notes 7300 800  0    50   ~ 0
 SOLAR - 2S2P
 Connection ~ 8650 1050
 Wire Wire Line
@@ -1568,12 +1469,12 @@ $EndComp
 $Comp
 L spriteSAMD-rescue:+2V1-power #PWR0113
 U 1 1 5C705435
-P 5350 4300
-F 0 "#PWR0113" H 5350 4150 50  0001 C CNN
-F 1 "+2V1" H 5365 4473 50  0000 C CNN
-F 2 "" H 5400 4300 50  0001 C CNN
-F 3 "" H 5350 4300 50  0001 C CNN
-	1    5350 4300
+P 5200 4300
+F 0 "#PWR0113" H 5200 4150 50  0001 C CNN
+F 1 "+2V1" H 5215 4473 50  0000 C CNN
+F 2 "" H 5250 4300 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	1    5200 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1679,12 +1580,12 @@ Connection ~ 3050 900
 $Comp
 L spriteSAMD-rescue:+2V1-power #PWR0123
 U 1 1 5C70BA57
-P 5650 4550
-F 0 "#PWR0123" H 5650 4400 50  0001 C CNN
-F 1 "+2V1" H 5665 4723 50  0000 C CNN
-F 2 "" H 5700 4550 50  0001 C CNN
-F 3 "" H 5650 4550 50  0001 C CNN
-	1    5650 4550
+P 950 6600
+F 0 "#PWR0123" H 950 6450 50  0001 C CNN
+F 1 "+2V1" H 965 6773 50  0000 C CNN
+F 2 "" H 1000 6600 50  0001 C CNN
+F 3 "" H 950 6600 50  0001 C CNN
+	1    950  6600
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6100 3150
@@ -1746,25 +1647,10 @@ F 3 "" H 4800 7350 50  0001 C CNN
 	1    4800 7350
 	1    0    0    -1  
 $EndComp
-$Comp
-L spriteSAMD-rescue:DIODE-SCHOTTKYSOD-123-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue D?
-U 1 0 5C456A62
-P 8200 1050
-AR Path="/5BCFDB7D/5C456A62" Ref="D?"  Part="1" 
-AR Path="/5C456A62" Ref="D2"  Part="1" 
-F 0 "D2" H 8200 1150 42  0000 C CNN
-F 1 "MBR120" H 8200 952 42  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 8200 1050 50  0001 C CNN
-F 3 "" H 8200 1050 50  0001 C CNN
-	1    8200 1050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8100 1250 8100 1050
-Wire Wire Line
-	8650 1250 8650 1650
+	8000 2150 8000 1950
 $Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue #U$?
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C4846B7
 P 8300 3250
 AR Path="/5BCFDB7D/5C4846B7" Ref="#U$?"  Part="1" 
@@ -1782,7 +1668,7 @@ L Jumper:SolderJumper_3_Bridged12 JP1
 U 1 1 5C41E6BD
 P 8600 2050
 F 0 "JP1" V 8646 2118 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 8555 2118 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 8555 2118 50  0001 L CNN
 F 2 "custom-footprints:Jumper3_Small" H 8600 2050 50  0001 C CNN
 F 3 "~" H 8600 2050 50  0001 C CNN
 	1    8600 2050
@@ -1809,17 +1695,6 @@ Connection ~ 5700 3350
 Connection ~ 5700 3250
 Wire Wire Line
 	5700 3250 6100 3250
-$Comp
-L spriteSAMD-rescue:+2V1-power #PWR0104
-U 1 1 5C487356
-P 7950 2800
-F 0 "#PWR0104" H 7950 2650 50  0001 C CNN
-F 1 "+2V1" H 7965 2973 50  0000 C CNN
-F 2 "" H 8000 2800 50  0001 C CNN
-F 3 "" H 7950 2800 50  0001 C CNN
-	1    7950 2800
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 11750 450  1250 550 
 U 5C44990F
@@ -1831,16 +1706,12 @@ Wire Wire Line
 	5000 7200 5000 7350
 Wire Wire Line
 	5850 7350 5350 7350
-Connection ~ 8100 1050
-Wire Wire Line
-	8300 1050 8400 1050
 Wire Wire Line
 	8400 850  8400 1050
-Connection ~ 8400 1050
 Wire Wire Line
 	8400 1050 8450 1050
 Text Notes 6650 7150 0    157  ~ 0
-Sprite - 2019 NZ Hackathon\n
+Sprite - 2019\n
 Text Notes 2850 3700 0    79   ~ 0
 SAMD51\n
 $Comp
@@ -1860,7 +1731,7 @@ Connection ~ 1250 4700
 Wire Wire Line
 	1250 4700 1450 4700
 $Comp
-L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue-spriteSAMD-rescue C?
+L spriteSAMD-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue C?
 U 1 0 5C5B83C5
 P 1050 4800
 AR Path="/5BCFDB7D/5C5B83C5" Ref="C?"  Part="1" 
@@ -1878,4 +1749,503 @@ Wire Wire Line
 Wire Wire Line
 	1050 5000 800  5000
 Connection ~ 800  5000
+Wire Wire Line
+	8650 1250 8650 1650
+Wire Wire Line
+	7200 1550 7200 2050
+Connection ~ 7200 1550
+Connection ~ 7200 2050
+Wire Wire Line
+	7200 2050 7450 2050
+Wire Wire Line
+	8000 1200 8650 1200
+Connection ~ 8650 1200
+Wire Wire Line
+	8650 1200 8650 1050
+Connection ~ 8650 1750
+Wire Wire Line
+	8650 1750 8650 1650
+Wire Wire Line
+	8200 1950 8200 1750
+Wire Wire Line
+	8200 1750 8650 1750
+Wire Wire Line
+	8200 1950 8000 1950
+Connection ~ 8000 1950
+Connection ~ 8000 1200
+Connection ~ 1450 4400
+Wire Wire Line
+	4450 4200 4600 4200
+Text GLabel 4600 4200 2    50   BiDi ~ 0
+DAC0
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BC8
+P 12900 3250
+AR Path="/5C44990F/5C550BC8" Ref="J?"  Part="1" 
+AR Path="/5C550BC8" Ref="J13"  Part="1" 
+F 0 "J13" V 12772 3430 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 3430 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 3250 50  0001 C CNN
+F 3 "~" H 12900 3250 50  0001 C CNN
+	1    12900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BCE
+P 12900 3550
+AR Path="/5C44990F/5C550BCE" Ref="J?"  Part="1" 
+AR Path="/5C550BCE" Ref="J14"  Part="1" 
+F 0 "J14" V 12772 3730 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 3730 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 3550 50  0001 C CNN
+F 3 "~" H 12900 3550 50  0001 C CNN
+	1    12900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BD4
+P 12900 3900
+AR Path="/5C44990F/5C550BD4" Ref="J?"  Part="1" 
+AR Path="/5C550BD4" Ref="J15"  Part="1" 
+F 0 "J15" V 12772 4080 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 4080 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 3900 50  0001 C CNN
+F 3 "~" H 12900 3900 50  0001 C CNN
+	1    12900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BDA
+P 12900 4200
+AR Path="/5C44990F/5C550BDA" Ref="J?"  Part="1" 
+AR Path="/5C550BDA" Ref="J16"  Part="1" 
+F 0 "J16" V 12772 4380 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 4380 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 4200 50  0001 C CNN
+F 3 "~" H 12900 4200 50  0001 C CNN
+	1    12900 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BE0
+P 12900 4500
+AR Path="/5C44990F/5C550BE0" Ref="J?"  Part="1" 
+AR Path="/5C550BE0" Ref="J17"  Part="1" 
+F 0 "J17" V 12772 4680 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 4680 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 4500 50  0001 C CNN
+F 3 "~" H 12900 4500 50  0001 C CNN
+	1    12900 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BE6
+P 12900 4800
+AR Path="/5C44990F/5C550BE6" Ref="J?"  Part="1" 
+AR Path="/5C550BE6" Ref="J18"  Part="1" 
+F 0 "J18" V 12772 4980 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 4980 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 4800 50  0001 C CNN
+F 3 "~" H 12900 4800 50  0001 C CNN
+	1    12900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BEC
+P 12900 5150
+AR Path="/5C44990F/5C550BEC" Ref="J?"  Part="1" 
+AR Path="/5C550BEC" Ref="J19"  Part="1" 
+F 0 "J19" V 12772 5330 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 5330 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 5150 50  0001 C CNN
+F 3 "~" H 12900 5150 50  0001 C CNN
+	1    12900 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C550BF2
+P 12900 5450
+AR Path="/5C44990F/5C550BF2" Ref="J?"  Part="1" 
+AR Path="/5C550BF2" Ref="J20"  Part="1" 
+F 0 "J20" V 12772 5630 50  0000 L CNN
+F 1 "Conn_01x04" V 12863 5630 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM" H 12900 5450 50  0001 C CNN
+F 3 "~" H 12900 5450 50  0001 C CNN
+	1    12900 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550BF8
+P 12400 2350
+AR Path="/5C44990F/5C550BF8" Ref="J?"  Part="1" 
+AR Path="/5C550BF8" Ref="J8"  Part="1" 
+F 0 "J8" V 12272 2430 50  0000 L CNN
+F 1 "Conn_01x01" V 12363 2430 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12400 2350 50  0001 C CNN
+F 3 "~" H 12400 2350 50  0001 C CNN
+	1    12400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550BFE
+P 12400 2600
+AR Path="/5C44990F/5C550BFE" Ref="J?"  Part="1" 
+AR Path="/5C550BFE" Ref="J9"  Part="1" 
+F 0 "J9" V 12364 2512 50  0000 R CNN
+F 1 "Conn_01x01" V 12273 2512 50  0000 R CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12400 2600 50  0001 C CNN
+F 3 "~" H 12400 2600 50  0001 C CNN
+	1    12400 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C04
+P 12550 2350
+AR Path="/5C44990F/5C550C04" Ref="J?"  Part="1" 
+AR Path="/5C550C04" Ref="J10"  Part="1" 
+F 0 "J10" V 12422 2430 50  0000 L CNN
+F 1 "Conn_01x01" V 12513 2430 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12550 2350 50  0001 C CNN
+F 3 "~" H 12550 2350 50  0001 C CNN
+	1    12550 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C0A
+P 12000 3950
+AR Path="/5C44990F/5C550C0A" Ref="J?"  Part="1" 
+AR Path="/5C550C0A" Ref="J5"  Part="1" 
+F 0 "J5" V 11872 4030 50  0000 L CNN
+F 1 "Conn_01x01" V 11963 4030 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12000 3950 50  0001 C CNN
+F 3 "~" H 12000 3950 50  0001 C CNN
+	1    12000 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C10
+P 11800 3950
+AR Path="/5C44990F/5C550C10" Ref="J?"  Part="1" 
+AR Path="/5C550C10" Ref="J4"  Part="1" 
+F 0 "J4" V 11672 4030 50  0000 L CNN
+F 1 "Conn_01x01" V 11763 4030 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 11800 3950 50  0001 C CNN
+F 3 "~" H 11800 3950 50  0001 C CNN
+	1    11800 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C16
+P 12050 2600
+AR Path="/5C44990F/5C550C16" Ref="J?"  Part="1" 
+AR Path="/5C550C16" Ref="J6"  Part="1" 
+F 0 "J6" V 12014 2512 50  0000 R CNN
+F 1 "Conn_01x01" V 11923 2512 50  0000 R CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12050 2600 50  0001 C CNN
+F 3 "~" H 12050 2600 50  0001 C CNN
+	1    12050 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5C550C1C
+P 11600 3950
+AR Path="/5C550C1C" Ref="J2"  Part="1" 
+AR Path="/5C44990F/5C550C1C" Ref="J?"  Part="1" 
+F 0 "J2" V 11472 4030 50  0000 L CNN
+F 1 "Conn_01x01" V 11563 4030 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 11600 3950 50  0001 C CNN
+F 3 "~" H 11600 3950 50  0001 C CNN
+	1    11600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C22
+P 12550 2600
+AR Path="/5C44990F/5C550C22" Ref="J?"  Part="1" 
+AR Path="/5C550C22" Ref="J11"  Part="1" 
+F 0 "J11" V 12514 2512 50  0000 R CNN
+F 1 "Conn_01x01" V 12423 2512 50  0000 R CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12550 2600 50  0001 C CNN
+F 3 "~" H 12550 2600 50  0001 C CNN
+	1    12550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C28
+P 12700 2350
+AR Path="/5C44990F/5C550C28" Ref="J?"  Part="1" 
+AR Path="/5C550C28" Ref="J12"  Part="1" 
+F 0 "J12" V 12572 2430 50  0000 L CNN
+F 1 "Conn_01x01" V 12663 2430 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12700 2350 50  0001 C CNN
+F 3 "~" H 12700 2350 50  0001 C CNN
+	1    12700 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C2E
+P 14300 3550
+AR Path="/5C44990F/5C550C2E" Ref="J?"  Part="1" 
+AR Path="/5C550C2E" Ref="J23"  Part="1" 
+F 0 "J23" V 14172 3630 50  0000 L CNN
+F 1 "Conn_01x02" H 14263 3630 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 3550 50  0001 C CNN
+F 3 "~" H 14300 3550 50  0001 C CNN
+	1    14300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C34
+P 14300 2650
+AR Path="/5C44990F/5C550C34" Ref="J?"  Part="1" 
+AR Path="/5C550C34" Ref="J21"  Part="1" 
+F 0 "J21" V 14172 2730 50  0000 L CNN
+F 1 "Conn_01x02" V 14263 2730 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 2650 50  0001 C CNN
+F 3 "~" H 14300 2650 50  0001 C CNN
+	1    14300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C3A
+P 14300 3150
+AR Path="/5C44990F/5C550C3A" Ref="J?"  Part="1" 
+AR Path="/5C550C3A" Ref="J22"  Part="1" 
+F 0 "J22" V 14172 3230 50  0000 L CNN
+F 1 "Conn_01x02" V 14263 3230 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 3150 50  0001 C CNN
+F 3 "~" H 14300 3150 50  0001 C CNN
+	1    14300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C40
+P 14300 3800
+AR Path="/5C44990F/5C550C40" Ref="J?"  Part="1" 
+AR Path="/5C550C40" Ref="J24"  Part="1" 
+F 0 "J24" V 14172 3880 50  0000 L CNN
+F 1 "Conn_01x02" V 14263 3880 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 3800 50  0001 C CNN
+F 3 "~" H 14300 3800 50  0001 C CNN
+	1    14300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C46
+P 14300 4350
+AR Path="/5C44990F/5C550C46" Ref="J?"  Part="1" 
+AR Path="/5C550C46" Ref="J25"  Part="1" 
+F 0 "J25" V 14450 4200 50  0000 L CNN
+F 1 "Conn_01x02" V 14263 4430 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 4350 50  0001 C CNN
+F 3 "~" H 14300 4350 50  0001 C CNN
+	1    14300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C4C
+P 14300 4800
+AR Path="/5C44990F/5C550C4C" Ref="J?"  Part="1" 
+AR Path="/5C550C4C" Ref="J26"  Part="1" 
+F 0 "J26" V 14172 4880 50  0000 L CNN
+F 1 "Conn_01x02" V 14263 4880 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 4800 50  0001 C CNN
+F 3 "~" H 14300 4800 50  0001 C CNN
+	1    14300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C550C52
+P 14300 5400
+AR Path="/5C44990F/5C550C52" Ref="J?"  Part="1" 
+AR Path="/5C550C52" Ref="J27"  Part="1" 
+F 0 "J27" V 14172 5480 50  0000 L CNN
+F 1 "Conn_01x02" V 14263 5480 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM3" H 14300 5400 50  0001 C CNN
+F 3 "~" H 14300 5400 50  0001 C CNN
+	1    14300 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 2150 12550 2150
+Connection ~ 12400 2150
+Connection ~ 12550 2150
+Wire Wire Line
+	12550 2150 12400 2150
+$Comp
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
+U 1 0 5C550C5C
+P 12050 2350
+AR Path="/5BCFDB7D/5C550C5C" Ref="#U$?"  Part="1" 
+AR Path="/5C550C5C" Ref="#U$0102"  Part="1" 
+AR Path="/5C44990F/5C550C5C" Ref="#U$?"  Part="1" 
+F 0 "#U$0102" H 12050 2350 50  0001 C CNN
+F 1 "GND" H 11950 2250 59  0000 L BNN
+F 2 "" H 12050 2350 50  0001 C CNN
+F 3 "" H 12050 2350 50  0001 C CNN
+	1    12050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 2250 12050 2150
+Wire Wire Line
+	12050 2800 12400 2800
+Wire Wire Line
+	13000 2800 13000 2700
+Connection ~ 12400 2800
+Wire Wire Line
+	12400 2800 12550 2800
+Connection ~ 12550 2800
+Wire Wire Line
+	12550 2800 13000 2800
+Wire Wire Line
+	12050 2150 12200 2150
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C550C6A
+P 12200 2350
+AR Path="/5C44990F/5C550C6A" Ref="J?"  Part="1" 
+AR Path="/5C550C6A" Ref="J7"  Part="1" 
+F 0 "J7" V 12072 2430 50  0000 L CNN
+F 1 "Conn_01x01" V 12163 2430 50  0000 L CNN
+F 2 "custom-footprints:PinHeader_CUSTOM2" H 12200 2350 50  0001 C CNN
+F 3 "~" H 12200 2350 50  0001 C CNN
+	1    12200 2350
+	0    1    1    0   
+$EndComp
+Connection ~ 12200 2150
+Wire Wire Line
+	12200 2150 12400 2150
+Text GLabel 14000 4900 0    59   BiDi ~ 0
+SCL
+Text GLabel 14000 4800 0    59   BiDi ~ 0
+SDA
+Wire Wire Line
+	14000 4800 14100 4800
+Wire Wire Line
+	14100 4900 14000 4900
+Wire Wire Line
+	14100 3650 14000 3650
+Wire Wire Line
+	14100 3550 14000 3550
+Text GLabel 14000 3650 0    50   BiDi ~ 0
+PA09
+Text GLabel 14000 3550 0    50   BiDi ~ 0
+PA10
+Wire Wire Line
+	14100 4450 14000 4450
+Wire Wire Line
+	14100 4350 14000 4350
+Text GLabel 14000 4350 0    50   Output ~ 0
+RX
+Text GLabel 14000 4450 0    50   Input ~ 0
+TX
+Text GLabel 14000 2750 0    59   Input ~ 0
+MISO
+Text GLabel 14000 2650 0    59   Output ~ 0
+SCK
+Wire Wire Line
+	14000 2750 14100 2750
+Wire Wire Line
+	14000 2650 14100 2650
+Text GLabel 14000 3900 0    59   Output ~ 0
+MOSI
+Wire Wire Line
+	14000 3900 14100 3900
+Wire Wire Line
+	14100 3150 14000 3150
+Text GLabel 14000 3150 0    50   BiDi ~ 0
+PA08
+$Comp
+L spriteSAMD-rescue:+2V1-power #PWR?
+U 1 1 5C550C86
+P 13000 2700
+AR Path="/5C44990F/5C550C86" Ref="#PWR?"  Part="1" 
+AR Path="/5C550C86" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 13000 2550 50  0001 C CNN
+F 1 "+2V1" H 13015 2873 50  0000 C CNN
+F 2 "" H 13050 2700 50  0001 C CNN
+F 3 "" H 13000 2700 50  0001 C CNN
+	1    13000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 3800 14000 3800
+Text GLabel 14000 3800 0    50   BiDi ~ 0
+PA06
+Wire Wire Line
+	14100 5400 14000 5400
+Text GLabel 14000 5400 0    50   BiDi ~ 0
+DAC0
+$Comp
+L dk_Oscillators:XLH536025_000000I X1
+U 1 1 5C57D32D
+P 9650 5400
+F 0 "X1" H 9650 5600 60  0000 R CNN
+F 1 "26.000" H 9994 5247 60  0001 L CNN
+F 2 "custom-footprints:TXCO_2.5x2" H 9850 5600 60  0001 L CNN
+F 3 "http://www.foxonline.com/pdfs/FXO_HC53.pdf" H 9850 5700 60  0001 L CNN
+	1    9650 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 5500 9850 5800
+Wire Wire Line
+	9850 5800 9650 5800
+$Comp
+L spriteSAMD-rescue:+2V1-power #PWR0105
+U 1 1 5C5C6D47
+P 9550 5200
+F 0 "#PWR0105" H 9550 5050 50  0001 C CNN
+F 1 "+2V1" H 9565 5373 50  0000 C CNN
+F 2 "" H 9600 5200 50  0001 C CNN
+F 3 "" H 9550 5200 50  0001 C CNN
+	1    9550 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5500 9350 5650
+NoConn ~ 8600 5750
+Wire Wire Line
+	9050 5650 8600 5650
+$Comp
+L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
+U 1 0 5C61E6C6
+P 9850 5900
+AR Path="/5BCFDB7D/5C61E6C6" Ref="#U$?"  Part="1" 
+AR Path="/5C61E6C6" Ref="#U$0103"  Part="1" 
+F 0 "#U$0103" H 9850 5900 50  0001 C CNN
+F 1 "GND" H 9750 5800 59  0000 L BNN
+F 2 "" H 9850 5900 50  0001 C CNN
+F 3 "" H 9850 5900 50  0001 C CNN
+	1    9850 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 5800
+Wire Wire Line
+	7950 2950 7400 2950
 $EndSCHEMATC
