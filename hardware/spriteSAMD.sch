@@ -1173,23 +1173,6 @@ Text GLabel 7500 2650 2    50   Input ~ 0
 PWDWN
 Text GLabel 7500 2750 2    50   Input ~ 0
 SHDWN
-$Comp
-L Device:R_Small_US R4
-U 1 1 5C3F0B06
-P 5500 2950
-F 0 "R4" V 5400 2900 50  0000 L CNN
-F 1 "10K" V 5568 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5500 2950 50  0001 C CNN
-F 3 "~" H 5500 2950 50  0001 C CNN
-	1    5500 2950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 2950 5600 2950
-Wire Wire Line
-	5400 2950 5200 2950
-Wire Wire Line
-	5200 2950 5200 3100
 Text Notes 5000 2950 0    50   ~ 0
 I2C=0x20
 Wire Notes Line
@@ -1238,19 +1221,6 @@ Wire Wire Line
 	5000 2650 6100 2650
 Wire Wire Line
 	5000 2750 6100 2750
-$Comp
-L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
-U 1 0 5C47EEB0
-P 5200 3200
-AR Path="/5BCFDB7D/5C47EEB0" Ref="#U$?"  Part="1" 
-AR Path="/5C47EEB0" Ref="#U$0107"  Part="1" 
-F 0 "#U$0107" H 5200 3200 50  0001 C CNN
-F 1 "GND" H 5100 3100 59  0000 L BNN
-F 2 "" H 5200 3200 50  0001 C CNN
-F 3 "" H 5200 3200 50  0001 C CNN
-	1    5200 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L spriteSAMD-rescue:GND-Adafruit_Feather_M4_Express-eagle-import-lab64_SAM32-rescue-SAMD-10-rescue-SAM32-rescue #U$?
 U 1 0 5C47F73F
