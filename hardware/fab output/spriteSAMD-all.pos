@@ -1,5 +1,5 @@
-### Module positions - created on 2/15/2019 8:25:21 AM ###
-### Printed by Pcbnew version kicad (6.0.0-rc1-dev-1614-ge850a482d)
+### Module positions - created on 2/16/2019 1:52:02 PM ###
+### Printed by Pcbnew version pcbnew (6.0.0-rc1-dev-1614-ge850a482d)
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                         Package                          PosX       PosY       Rot  Side
@@ -22,7 +22,7 @@ REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer   -86.9950   -7
 REF**     Fiducial_1mm_Dia_2mm_Outer  Fiducial_1mm_Dia_2mm_Outer  -110.1090   -78.9940    0.0000  bottom
 U7        OVM9724                     OVM9724b                     -91.1403   -96.9518  270.0000  bottom
 X1        26.000                      TXCO_2.5x2                  -107.8992  -105.9688  180.0000  bottom
-C2        0.1uF                       C_0402_1005Metric             91.9277   -99.0803    0.0000  top
+C2        0.1uF                       C_0402_1005Metric             91.9000   -99.0800    0.0000  top
 C7        1uF                         C_0402_1005Metric             96.5200  -105.4100   90.0000  top
 C8        0.1uF                       C_0402_1005Metric             89.0981   -95.9587  180.0000  top
 C9        0.1uF                       C_0402_1005Metric             93.0224   -96.0653    0.0000  top
