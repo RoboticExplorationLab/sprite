@@ -9,8 +9,8 @@
 #define INDEX_URL "https://github.com/kicksat"
 #define BOARD_ID "SPRITE_v2"
 
-#define USB_VID 0x239A
-#define USB_PID 0x8021
+#define USB_VID 0x04D8
+#define USB_PID 0xED94
 
 #define LED_PIN PIN_PB03
 
