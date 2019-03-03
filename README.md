@@ -1,6 +1,6 @@
 [hardware](https://github.com/maholli/sprite/tree/master/hardware): KiCad PCB files and bill of materials. Assembling a sprite? Check out [https://roboticexplorationlab.github.io/sprite/](https://roboticexplorationlab.github.io/sprite/) for an interactive BOM!
 
-[firmware](https://github.com/maholli/sprite/tree/master/firmware): built circuitpython bootloader.bin and firmware.uf2 (and the files to build it yourself)
+[firmware](https://github.com/maholli/sprite/tree/master/firmware): pre-built circuitpython bootloader.bin and firmware.uf2 (and the files to build it yourself)
 
 [software](https://github.com/maholli/sprite/tree/master/software): circuitpython scripts and libraries working on the sprite
 
@@ -8,14 +8,14 @@
   <img width="800" src="https://github.com/RoboticExplorationLab/sprite/blob/master/hardware/board.PNG">
 </p>
 
-## useful resources
+## Useful Resources
 
 * [circuitpython libraries](https://github.com/maholli/SAM32/tree/master/firmware/useful_libraries)
 * the [adafruit circuitpython playground page](https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-playground) has a lot of good tutorials for doing basic microcontroller things in CP
 * [built-in "python" modules](https://circuitpython.readthedocs.io/en/latest/shared-bindings/index.html#modules) available in circuitpython
 * [helpful interactive BOM](https://maholli.github.io/sprite/) for ease of assembly
 
-## accessing the serial console
+## Accessing the Serial Console
 nearly any terminal program can communicate with the sprite (baud=112500, data=8 bit, parity=None, flow control=XON/XOFF). For example...
 
 ### MacOS
