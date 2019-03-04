@@ -4,13 +4,21 @@
 
 [software](https://github.com/maholli/sprite/tree/master/software): circuitpython scripts and libraries working on the sprite
 
-<br><br><br>
+<br>
+----
+
+
+
+<p align="middle">
+  <img width="600" src="https://github.com/RoboticExplorationLab/sprite/blob/master/hardware/sprite_top.jpg">
+</p>
+
+<br>
 ----
 
 <p align="middle">
   <img width="800" src="https://github.com/RoboticExplorationLab/sprite/blob/master/hardware/board.PNG">
 </p>
-
 ## Useful Resources
 
 * [circuitpython libraries](https://github.com/maholli/SAM32/tree/master/firmware/useful_libraries)
