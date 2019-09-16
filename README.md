@@ -13,6 +13,7 @@
 <p align="middle">
   <img width="800" src="https://github.com/RoboticExplorationLab/sprite/blob/master/hardware/board.PNG">
 </p>
+
 ## Useful Resources
 
 * [circuitpython libraries](https://github.com/maholli/SAM32/tree/master/firmware/useful_libraries)
