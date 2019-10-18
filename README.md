@@ -16,6 +16,7 @@
 
 ## Useful Resources
 
+💡 Lots of applicable information also located on the [PyCubed.org quickstart page](https://www.notion.so/maholli/Hands-On-Quick-Start-d220f0ec88eb41c08ee855ff4f46d737).
 * [circuitpython libraries](https://github.com/maholli/SAM32/tree/master/firmware/useful_libraries)
 * the [adafruit circuitpython playground page](https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-playground) has a lot of good tutorials for doing basic microcontroller things in CP
 * [built-in "python" modules](https://circuitpython.readthedocs.io/en/latest/shared-bindings/index.html#modules) available in circuitpython
